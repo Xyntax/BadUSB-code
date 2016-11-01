@@ -9,7 +9,7 @@ ino_code 中的.ino代码为上传到硬件的代码，无需服务器中配置�
 - Kali  
   
 ## 原理及制作可参考：
-[乐枕的家——BadUSB原理浅析及制作指南](http://www.cdxy.me/penetration-test/badusb-teensy/)
+[乐枕的家——BadUSB原理浅析及制作指南](https://www.cdxy.me/?p=549)
 
 特别感谢HackPanda大牛的代码和技术支持！向前辈学习！
  
